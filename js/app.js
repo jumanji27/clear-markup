@@ -3,13 +3,13 @@ $(function() {
 var ### = {
 
   // Все обработчики тут
-  init: function() {
+  initialize: function() {
 
   }
 
 };
 
-###.init();
+###.initialize();
 
 });
 
