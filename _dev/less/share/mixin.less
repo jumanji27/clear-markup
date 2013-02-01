@@ -23,3 +23,10 @@
   background:-o-linear-gradient(top, @col_start, @col_end);
   background:-ms-linear-gradient(top, @col_start, @col_end);
 }
+
+.transition (@rule, @time) {
+  -webkit-transition: @rule @time ease;
+  -moz-transition: @rule @time ease;
+  -o-transition: @rule @time ease;
+  transition: @rule @time ease;
+}
