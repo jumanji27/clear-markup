@@ -2,7 +2,7 @@ $(function() {
 
 var ### = {
 
-  // Все обработчики тут
+  // All events here
   initialize: function() {
 
   }
