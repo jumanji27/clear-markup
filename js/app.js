@@ -1,15 +1,15 @@
-$(function() {
-
-var ### = {
+var App = function() {
 
   // All events here
-  initialize: function() {
+  this.initialize = function() {
 
-  }
+  };
 
 };
 
-###.initialize();
 
+$(function() {
+  app = new App();
+  app.initialize();
 });
 
