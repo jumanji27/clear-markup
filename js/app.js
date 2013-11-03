@@ -9,7 +9,7 @@ var App = function() {
 
 
 $(function() {
-  app = new App();
+  var app = new App();
   app.initialize();
 });
 
