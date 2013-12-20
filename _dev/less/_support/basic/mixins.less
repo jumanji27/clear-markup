@@ -15,12 +15,13 @@
   text-overflow: ellipsis;
 }
 
-.gradient ( @col_start:#735858, @col_end:#523737, @col_def:#634848 ) {
-    background: @col_def;
-  background: -webkit-gradient(linear, left top, left bottom, from(@col_start), to(@col_end));
-  background: -moz-linear-gradient(top, @col_start, @col_end);
-  background: -o-linear-gradient(top, @col_start, @col_end);
-  background: -ms-linear-gradient(top, @col_start, @col_end);
+.gradient ( @rule, @def ) {
+      background: @def;
+    background: -webkit-gradient(@rule);
+    background: -moz-linear-gradient(@rule);
+    background: -o-linear-gradient(@rule);
+    background: -ms-linear-gradient(@rule);
+  background: linear-gradient(@rule);
 }
 
 .transition (@rule, @time) {
