@@ -1,10 +1,10 @@
-.round ( @rad:5px ) {
+.round (@rad:5px) {
     -webkit-border-radius: @rad;
     -moz-border-radius: @rad;
   border-radius: @rad;
 }
 
-.shadow ( @sdw:1px 1px 2px #fff ) {
+.shadow (@sdw:1px 1px 2px #fff) {
     -moz-box-shadow: @sdw;
     -webkit-box-shadow: @sdw;
   box-shadow: @sdw;
@@ -15,8 +15,8 @@
   text-overflow: ellipsis;
 }
 
-.gradient ( @rule, @def ) {
-      background: @def;
+.gradient (@rule, @def) {
+  background: @def;
     background: -webkit-gradient(@rule);
     background: -moz-linear-gradient(@rule);
     background: -o-linear-gradient(@rule);

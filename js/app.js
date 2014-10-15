@@ -1,10 +1,8 @@
 var App = function() {
-
   // All events here
   this.initialize = function() {
 
   };
-
 };
 
 
